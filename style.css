@@ -57,6 +57,22 @@ header h1{
     justify-content: right;
     width: 300px;
   }
+  .btn_01{
+    width: 200px;
+    text-align: center;
+    background-color: rgb(241, 91, 116);
+    color: #fff;
+    padding: 10px;
+    margin: 0 10px 0 0;
+  }
+
+  .btn_02{
+    width: 200px;
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+  }
 }
 
 .menu{
