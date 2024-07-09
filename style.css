@@ -57,10 +57,119 @@ header h1{
     justify-content: right;
     width: 300px;
   }
+  .btn_01{
+    width: 200px;
+    text-align: center;
+    background-color: rgb(241, 91, 116);
+    color: #fff;
+    padding: 10px;
+    margin: 0 10px 0 0;
+  }
+
+  .btn_02{
+    width: 200px;
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+  }
 }
 
 .menu{
   display: flex;
   justify-content: space-around;
   padding: 25px 0;  
+}
+
+.contact-form_top{
+  width: 100%;
+  padding: 100px 250px;
+  border-bottom: solid 1px #c9c9c9;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.contact-form p {
+  text-align: center;
+  color: #666;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 60px;
+}
+
+.contact-form label {
+  font-weight: 900;
+  width: 100%;
+  align-self: center;
+}
+ 
+.contact-form select, 
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.contact-form .required {
+  font-weight: 900;
+  padding: 5px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.contact-form button {
+  width: 300px;
+  background: #075007;
+  color: #fff;
+  padding: 20px 130px;
+  display: block;
+  margin: 50px auto 100px auto;
+}
+
+.required{
+  background-color: rgb(241, 91, 116);
+  border-radius: 5px;
+}
+
+.form-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group_01{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  border-bottom: solid 1px #c9c9c9;
+}
+
+.form-group input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.check_privacy{
+  width: 100%;
+}
+
+.check_privacy a{
+  color: green;
+  border-bottom: solid 1px green;
+}
+
+i{
+  color: green;
+  border-bottom: solid 1px green;
+  padding-bottom: 5px;
 }
